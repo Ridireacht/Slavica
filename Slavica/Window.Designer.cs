@@ -70,10 +70,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Dubai", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(309, 20);
+            this.label1.Font = new System.Drawing.Font("Dubai", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(274, 14);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(165, 27);
+            this.label1.Size = new System.Drawing.Size(217, 36);
             this.label1.TabIndex = 1;
             this.label1.Text = "Input a word in English:";
             // 
@@ -109,7 +109,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Bahnschrift", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(309, 136);
+            this.label4.Location = new System.Drawing.Point(298, 136);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(129, 25);
             this.label4.TabIndex = 5;
@@ -175,7 +175,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Dubai", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label10.Location = new System.Drawing.Point(288, 304);
+            this.label10.Location = new System.Drawing.Point(277, 304);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(109, 27);
             this.label10.TabIndex = 15;
@@ -186,7 +186,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Dubai", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label11.Location = new System.Drawing.Point(288, 273);
+            this.label11.Location = new System.Drawing.Point(277, 273);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(109, 27);
             this.label11.TabIndex = 14;
@@ -197,7 +197,7 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Dubai", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label12.Location = new System.Drawing.Point(288, 241);
+            this.label12.Location = new System.Drawing.Point(277, 241);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(65, 27);
             this.label12.TabIndex = 13;
@@ -208,7 +208,7 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Dubai", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label13.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label13.Location = new System.Drawing.Point(288, 209);
+            this.label13.Location = new System.Drawing.Point(277, 209);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(81, 27);
             this.label13.TabIndex = 12;
@@ -219,7 +219,7 @@
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Dubai", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label14.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label14.Location = new System.Drawing.Point(288, 179);
+            this.label14.Location = new System.Drawing.Point(277, 179);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(55, 27);
             this.label14.TabIndex = 11;
@@ -230,7 +230,7 @@
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Dubai", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label15.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label15.Location = new System.Drawing.Point(288, 399);
+            this.label15.Location = new System.Drawing.Point(277, 399);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(57, 27);
             this.label15.TabIndex = 18;
@@ -241,7 +241,7 @@
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Dubai", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label16.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label16.Location = new System.Drawing.Point(288, 368);
+            this.label16.Location = new System.Drawing.Point(277, 368);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(53, 27);
             this.label16.TabIndex = 17;
@@ -252,7 +252,7 @@
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Dubai", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label17.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label17.Location = new System.Drawing.Point(288, 336);
+            this.label17.Location = new System.Drawing.Point(277, 336);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(70, 27);
             this.label17.TabIndex = 16;
