@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slavica", "Slavica.csproj", "{4862604D-7CFE-4C39-A49F-6938B762FFFE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slavica", "Slavica\Slavica.csproj", "{BFDF8E57-D1EB-4FC7-B3DF-5C0C51910321}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4862604D-7CFE-4C39-A49F-6938B762FFFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4862604D-7CFE-4C39-A49F-6938B762FFFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4862604D-7CFE-4C39-A49F-6938B762FFFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4862604D-7CFE-4C39-A49F-6938B762FFFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFDF8E57-D1EB-4FC7-B3DF-5C0C51910321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFDF8E57-D1EB-4FC7-B3DF-5C0C51910321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFDF8E57-D1EB-4FC7-B3DF-5C0C51910321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFDF8E57-D1EB-4FC7-B3DF-5C0C51910321}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A862331B-39C1-4A8C-BA6D-79A63453542F}
+		SolutionGuid = {62E42E56-F89C-44DB-B67F-C3DD76CF2275}
 	EndGlobalSection
 EndGlobal
