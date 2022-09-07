@@ -38,7 +38,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(534, 59);
+            this.button1.Location = new System.Drawing.Point(540, 61);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(98, 30);
             this.button1.TabIndex = 0;
@@ -56,7 +56,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(145, 61);
+            this.textBox1.Location = new System.Drawing.Point(151, 63);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(383, 29);
             this.textBox1.TabIndex = 2;
@@ -64,27 +64,30 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(62, 140);
+            this.label2.Font = new System.Drawing.Font("Bahnschrift", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(64, 136);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 21);
+            this.label2.Size = new System.Drawing.Size(120, 25);
             this.label2.TabIndex = 3;
-            this.label2.Text = "East Slavic";
+            this.label2.Text = "West Slavic";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(595, 140);
+            this.label3.Font = new System.Drawing.Font("Bahnschrift", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(540, 136);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(88, 21);
+            this.label3.Size = new System.Drawing.Size(116, 25);
             this.label3.TabIndex = 4;
-            this.label3.Text = "West Slavic";
+            this.label3.Text = "East Slavic";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(342, 140);
+            this.label4.Font = new System.Drawing.Font("Bahnschrift", 12.096F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(309, 136);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(95, 21);
+            this.label4.Size = new System.Drawing.Size(129, 25);
             this.label4.TabIndex = 5;
             this.label4.Text = "South Slavic";
             // 
