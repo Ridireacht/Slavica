@@ -21,6 +21,7 @@ namespace Slavica
         void Get(string keyword)
         {
             makeURLs(keyword);
+            getResponses(urls);
         }
 
 
@@ -32,6 +33,19 @@ namespace Slavica
             foreach(string lang in languages)
             {
                 urls.Add(api + "wordlist?l1=en&l2=" + lang + "&q=" + keyword + "&after=1&includeTranslations=true");
+            }
+        }
+
+
+        // gets responses from requests
+        void getResponses(List<string> urls)
+        {
+            foreach (string url in urls)
+            {
+                // some
+                // future
+                //code
+                responses.Add(null);
             }
         }
 
