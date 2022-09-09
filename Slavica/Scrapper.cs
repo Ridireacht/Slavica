@@ -16,9 +16,19 @@ namespace Slavica
 
         void Get(string keyword)
         {
+            makeURLs(keyword);
+        }
+
+
+        // creates a list of urls needed to be parsed
+        void makeURLs(string keyword)
+        {
             keyword = wordToURL(keyword);
 
-
+            foreach(string lang in languages)
+            {
+                urls.Add(api + "wordlist?l1=en&l2=" + lang + "&q=" + keyword + "&after=1&includeTranslations=true");
+            }
         }
 
 
