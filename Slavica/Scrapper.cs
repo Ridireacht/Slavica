@@ -11,14 +11,14 @@ namespace Slavica
         // vars and data lists
         string api = "https://iapi.glosbe.com/iapi3/";
         List<string> urls = new List<string>();
-        List<string> responses = new List<string>();
         List<string> languages = new List<string>() { "ru", "be", "uk", "rue", "orv", "pl", "csb", "szl",
                                                       "hsb", "dsb", "pox", "cs", "sk", "sl", "hr",
                                                       "sr", "sh", "bs", "mk", "bg", "cu" };
+        public List<string> responses = new List<string>();
 
 
         // starts a translation process
-        void GetInfo(string keyword)
+        public void GetInfo(string keyword)
         {
             makeURLs(keyword);
             getResponses(urls);
