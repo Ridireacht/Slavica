@@ -11,7 +11,6 @@ namespace Slavica
 
 
         // initializing objects for classes
-        Scrapper scrapper = new Scrapper();
         Parser parser = new Parser();
 
 
@@ -32,7 +31,7 @@ namespace Slavica
         // starts a translation process
         private void button1_Click(object sender, EventArgs e)
         {
-            scrapper.GetInfo(textBox1.Text);
+            Scrapper.GetInfo(textBox1.Text);
             parser.ParseInfo(Scrapper.responses);
         }
     }
