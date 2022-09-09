@@ -18,7 +18,7 @@ namespace Slavica
 
 
         // starts a translation process
-        void Get(string keyword)
+        void GetInfo(string keyword)
         {
             makeURLs(keyword);
             getResponses(urls);
@@ -40,12 +40,14 @@ namespace Slavica
         // gets responses from requests
         void getResponses(List<string> urls)
         {
+            string response = "";
+
             foreach (string url in urls)
             {
                 // some
                 // future
                 //code
-                responses.Add(null);
+                responses.Add(response);
             }
         }
 
