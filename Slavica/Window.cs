@@ -27,7 +27,7 @@ namespace Slavica
         // starts a translation process
         private void button1_Click(object sender, EventArgs e)
         {
-            Logic.Start();
+            Scrapper.Get(textBox1.Text);
         }
     }
 }
