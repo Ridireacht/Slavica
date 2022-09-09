@@ -10,7 +10,7 @@ namespace Slavica
     {
 
         // starts a translation process
-        public static void GetInfo(string keyword)
+        public static List<string> GetContent(string keyword)
         {   
             // vars and data lists
             string api = "https://iapi.glosbe.com/iapi3/";
@@ -18,7 +18,7 @@ namespace Slavica
                                                       "hsb", "dsb", "pox", "cs", "sk", "sl", "hr",
                                                       "sr", "sh", "bs", "mk", "bg", "cu" };
 
-            GetResponses(MakeURLs(keyword, api, languages));
+            return GetResponses(MakeURLs(keyword, api, languages));
         }
 
 

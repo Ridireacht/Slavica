@@ -31,8 +31,8 @@ namespace Slavica
         // starts a translation process
         private void button1_Click(object sender, EventArgs e)
         {
-            Scrapper.GetInfo(textBox1.Text);
-            parser.ParseInfo(Scrapper.responses);
+            List<string> contents = Scrapper.GetContent(textBox1.Text);
+            parser.ParseInfo(contents);
         }
     }
 }
