@@ -14,9 +14,9 @@ namespace Slavica
         {   
             // data needed for code working
             const string api = "https://iapi.glosbe.com/iapi3/";
-            List<string> languages = new List<string>() { "ru", "be", "uk", "rue", "orv", "pl", "csb", "szl",
-                                                      "hsb", "dsb", "pox", "cs", "sk", "sl", "hr",
-                                                      "sr", "sh", "bs", "mk", "bg", "cu" };
+            List<string> languages = new() { "ru", "be", "uk", "rue", "orv", "pl", "csb", "szl",
+                                             "hsb", "dsb", "pox", "cs", "sk", "sl", "hr",
+                                             "sr", "sh", "bs", "mk", "bg", "cu" };
 
             return GetResponses(MakeURLs(keyword, api, languages));
         }
@@ -25,7 +25,7 @@ namespace Slavica
         // creates a list of urls need to be parsed
         static List<string> MakeURLs(string keyword, string api, List<string> languages)
         {
-            List<string> urls = new List<string>();
+            List<string> urls = new();
             keyword = WordToURL(keyword);
         
 
@@ -42,7 +42,7 @@ namespace Slavica
         // gets responses from requests
         static List<string> GetResponses(List<string> urls)
         {
-            List<string> responses = new List<string>();
+            List<string> responses = new();
 
 
             // getting response from each url
