@@ -38,6 +38,16 @@ namespace Slavica
             label8.Text = "Rusyn: " + words[3];
             label9.Text = "Old Russian: " + words[4];
 
+            // West Slavic
+            label10.Text = "Polish: " + words[5];
+            label11.Text = "Kashubian: " + words[6];
+            label12.Text = "Silesian: " + words[7];
+            label13.Text = "Upper Sorbian: " + words[8];
+            label14.Text = "Lower Sorbian: " + words[9];
+            label15.Text = "Polabian: " + words[10];
+            label16.Text = "Czech: " + words[11];
+            label17.Text = "Slovak: " + words[12];
+
         }
     }
 }
