@@ -10,16 +10,21 @@ namespace Slavica
         public static List<string> ParseInfo(List<string> contents)
         {
             List<string> words = new();
+            const string replacement = "";
+            string temp;
+
+
+            // Regex patterns preset
+            Regex rgx1 = new Regex(",|{|}|[|]|:|: True");
+
+
 
             foreach (string content in contents)
             {
-                string pattern = ",|{|}|[|]|:|: True";
-                Regex rgx = new Regex(pattern);
+                // clearing the content
+                temp = rgx1.Replace(content, replacement);
 
-                string replacement = "";
-
-                string v = rgx.Replace(content, replacement);
-                words.Add(v);
+                words.Add(temp);
             }
 
             return words;
