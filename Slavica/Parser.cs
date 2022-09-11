@@ -13,11 +13,16 @@ namespace Slavica
 
             foreach (string content in contents)
             {
-                string v = Regex.Replace(content, ",|{|}|[|]|:|: True", ' ');
+                string pattern = ",|{|}|[|]|:|: True";
+                Regex rgx = new Regex(pattern);
+
+                string replacement = "";
+
+                string v = rgx.Replace(content, replacement);
                 words.Add(v);
             }
 
-            return contents;
+            return words;
         }
 
     }
