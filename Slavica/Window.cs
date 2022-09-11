@@ -28,7 +28,16 @@ namespace Slavica
         private void button1_Click(object sender, EventArgs e)
         {
             List<string> contents = Scrapper.GetContent(textBox1.Text);
-            Parser.ParseInfo(contents);
+            var words = Parser.ParseInfo(contents);
+
+            
+            // East Slavic
+            label5.Text = "Russian: " + words[0];
+            label6.Text = "Ukrainian: " + words[1];
+            label7.Text = "Belarusian: " + words[2];
+            label8.Text = "Rusyn: " + words[3];
+            label9.Text = "Old Russian: " + words[4];
+
         }
     }
 }
