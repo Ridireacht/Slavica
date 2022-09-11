@@ -10,7 +10,6 @@ namespace Slavica
         public static List<string> ParseInfo(List<string> contents)
         {
             List<string> words = new();
-            const string replacement = "";
             string temp;
 
 
@@ -26,6 +25,11 @@ namespace Slavica
                 temp = Regex.Replace(temp, "phrase", "");
                 temp = Regex.Replace(temp, "translations", "");
                 temp = Regex.Replace(temp, "success", "");
+
+                temp = Regex.Replace(temp, "\"+", "\"");
+
+                var tete = Regex.Split(temp, "\"");
+                temp = tete[2] + " / " + tete[3];
 
                 words.Add(temp);
             }
