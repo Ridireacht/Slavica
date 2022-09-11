@@ -15,10 +15,10 @@ namespace Slavica
 
 
             // Regex patterns preset
-            Regex rgx1 = new Regex(",|{|}|[|]|:|: True");
-            Regex rgx2 = new Regex(" '', '");
-            Regex rgx3 = new Regex(" True', '");
-            Regex rgx4 = new Regex("^'|'$', '");
+            Regex rgx1 = new Regex(@"\,|\{|\}|\[|\]|\:|\: True', '");
+            Regex rgx2 = new Regex(@"\' \'', '\'");
+            Regex rgx3 = new Regex(@" True', '");
+            Regex rgx4 = new Regex(@"^\'|\'$', '");
 
 
             foreach (string content in contents)
