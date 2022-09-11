@@ -54,13 +54,10 @@ namespace Slavica
                 Stream dataStream = response.GetResponseStream();
 
                 // Open the stream using a StreamReader for easy access.  
-                StreamReader reader = new StreamReader(dataStream);
+                StreamReader reader = new(dataStream);
 
-                // Read the content.  
-                string responseFromServer = reader.ReadToEnd();
-
-                // Save the content
-                responses.Add(responseFromServer);
+                // Read and save the content
+                responses.Add(reader.ReadToEnd());
 
                 // Clean up the streams and the response.  
                 reader.Close();
