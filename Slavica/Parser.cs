@@ -16,13 +16,14 @@ namespace Slavica
 
             // Regex patterns preset
             Regex rgx1 = new Regex(",|{|}|[|]|:|: True");
-
+            Regex rgx2 = new Regex("' '', ''");
 
 
             foreach (string content in contents)
             {
                 // clearing the content
                 temp = rgx1.Replace(content, replacement);
+                temp = rgx2.Replace(temp, replacement);
 
                 words.Add(temp);
             }
