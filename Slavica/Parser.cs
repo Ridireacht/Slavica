@@ -29,11 +29,6 @@ namespace Slavica
                 temp = rgx3.Replace(temp, replacement);
                 temp = rgx4.Replace(temp, replacement);
 
-                temp = Regex.Replace(temp, "after", "");
-                temp = Regex.Replace(temp, "phrase", "");
-                temp = Regex.Replace(temp, "translations", "");
-                temp = Regex.Replace(temp, "success", "");
-
                 words.Add(temp);
             }
 
