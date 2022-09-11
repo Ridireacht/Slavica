@@ -10,10 +10,6 @@ namespace Slavica
         }
 
 
-        // initializing objects for classes
-        Parser parser = new Parser();
-
-
         // checks if the text entry is correct
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -32,7 +28,7 @@ namespace Slavica
         private void button1_Click(object sender, EventArgs e)
         {
             List<string> contents = Scrapper.GetContent(textBox1.Text);
-            parser.ParseInfo(contents);
+            Parser.ParseInfo(contents);
         }
     }
 }

@@ -13,9 +13,7 @@ namespace Slavica
         public static List<string> ParseInfo(List<string> contents)
         {
 
-
-
-            return null;
+            return contents;
         }
 
     }
