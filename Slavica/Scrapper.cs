@@ -4,6 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using System;
+using System.IO;
+using System.Net;
+
+
+
 namespace Slavica
 {
     internal class Scrapper
@@ -48,13 +54,27 @@ namespace Slavica
             // getting response from each url
             foreach (string url in urls)
             {
-                // there
-                // will
-                // be
-                // some
-                // code
+                // Create a request for the URL.   
+                WebRequest request = WebRequest.Create(url);
 
-                responses.Add(response);
+                // Get the response.  
+                WebResponse response = request.GetResponse();
+
+                // Get the stream containing content returned by the server.  
+                Stream dataStream = response.GetResponseStream();
+
+                // Open the stream using a StreamReader for easy access.  
+                StreamReader reader = new StreamReader(dataStream);
+
+                // Read the content.  
+                string responseFromServer = reader.ReadToEnd();
+
+                // Save the content
+                responses.Add(responseFromServer);
+
+                // Clean up the streams and the response.  
+                reader.Close();
+                response.Close();
             }
 
             return responses;
