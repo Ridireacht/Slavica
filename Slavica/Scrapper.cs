@@ -1,13 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using System;
-using System.IO;
-using System.Net;
-
+﻿using System.Net;
 
 
 namespace Slavica
@@ -32,7 +23,6 @@ namespace Slavica
         static List<string> MakeURLs(string keyword, string api, List<string> languages)
         {
             List<string> urls = new();
-            keyword = WordToURL(keyword);
         
 
             // url creation and saving
@@ -80,11 +70,5 @@ namespace Slavica
             return responses;
         }
 
-
-        // changes word format to the URL-compatible one
-        static string WordToURL(string word)
-        {
-            return word;
-        }
     }
 }
