@@ -8,5 +8,15 @@ namespace Slavica
 {
     internal class Parser
     {
+
+        // returns translated words
+        public static List<string> ParseInfo(List<string> contents)
+        {
+
+
+
+            return null;
+        }
+
     }
 }
