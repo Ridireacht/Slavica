@@ -27,7 +27,7 @@ namespace Slavica
         // starts a translation process
         private void button1_Click(object sender, EventArgs e)
         {
-            List<string> contents = Scrapper.GetContent(textBox1.Text);
+            List<string> contents = Scrapper.GetContents(textBox1.Text);
             var words = Parser.ParseInfo(contents);
 
             
