@@ -55,6 +55,7 @@
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -178,22 +179,22 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Gotham Pro", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label10.Location = new System.Drawing.Point(277, 304);
+            this.label10.Location = new System.Drawing.Point(277, 179);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(126, 18);
+            this.label10.Size = new System.Drawing.Size(59, 18);
             this.label10.TabIndex = 15;
-            this.label10.Text = "Lower Sorbian:";
+            this.label10.Text = "Polish:";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Gotham Pro", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label11.Location = new System.Drawing.Point(277, 273);
+            this.label11.Location = new System.Drawing.Point(277, 209);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(126, 18);
+            this.label11.Size = new System.Drawing.Size(95, 18);
             this.label11.TabIndex = 14;
-            this.label11.Text = "Upper Sorbian:";
+            this.label11.Text = "Kashubian:";
             // 
             // label12
             // 
@@ -211,33 +212,33 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Gotham Pro", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label13.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label13.Location = new System.Drawing.Point(277, 209);
+            this.label13.Location = new System.Drawing.Point(277, 273);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(95, 18);
+            this.label13.Size = new System.Drawing.Size(126, 18);
             this.label13.TabIndex = 12;
-            this.label13.Text = "Kashubian:";
+            this.label13.Text = "Upper Sorbian:";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Gotham Pro", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label14.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label14.Location = new System.Drawing.Point(277, 179);
+            this.label14.Location = new System.Drawing.Point(277, 304);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(59, 18);
+            this.label14.Size = new System.Drawing.Size(126, 18);
             this.label14.TabIndex = 11;
-            this.label14.Text = "Polish:";
+            this.label14.Text = "Lower Sorbian:";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Gotham Pro", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label15.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label15.Location = new System.Drawing.Point(277, 399);
+            this.label15.Location = new System.Drawing.Point(277, 336);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(63, 18);
+            this.label15.Size = new System.Drawing.Size(80, 18);
             this.label15.TabIndex = 18;
-            this.label15.Text = "Slovak:";
+            this.label15.Text = "Polabian:";
             // 
             // label16
             // 
@@ -255,55 +256,55 @@
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Gotham Pro", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label17.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label17.Location = new System.Drawing.Point(277, 336);
+            this.label17.Location = new System.Drawing.Point(277, 399);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(80, 18);
+            this.label17.Size = new System.Drawing.Size(63, 18);
             this.label17.TabIndex = 16;
-            this.label17.Text = "Polabian:";
+            this.label17.Text = "Slovak:";
             // 
             // label18
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Gotham Pro", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label18.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label18.Location = new System.Drawing.Point(543, 399);
+            this.label18.Location = new System.Drawing.Point(277, 428);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(139, 18);
+            this.label18.Size = new System.Drawing.Size(75, 18);
             this.label18.TabIndex = 26;
-            this.label18.Text = "Church Slavonic:";
+            this.label18.Text = "Knaanic:";
             // 
             // label19
             // 
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Gotham Pro", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label19.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label19.Location = new System.Drawing.Point(543, 368);
+            this.label19.Location = new System.Drawing.Point(543, 179);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(87, 18);
             this.label19.TabIndex = 25;
-            this.label19.Text = "Bulgarian:";
+            this.label19.Text = "Slovenian:";
             // 
             // label20
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Gotham Pro", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label20.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label20.Location = new System.Drawing.Point(543, 336);
+            this.label20.Location = new System.Drawing.Point(543, 209);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(107, 18);
+            this.label20.Size = new System.Drawing.Size(78, 18);
             this.label20.TabIndex = 24;
-            this.label20.Text = "Macedonian:";
+            this.label20.Text = "Croatian:";
             // 
             // label21
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Gotham Pro", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label21.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label21.Location = new System.Drawing.Point(543, 304);
+            this.label21.Location = new System.Drawing.Point(543, 241);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(75, 18);
+            this.label21.Size = new System.Drawing.Size(71, 18);
             this.label21.TabIndex = 23;
-            this.label21.Text = "Bosnian:";
+            this.label21.Text = "Serbian:";
             // 
             // label22
             // 
@@ -321,39 +322,49 @@
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Gotham Pro", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label23.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label23.Location = new System.Drawing.Point(543, 241);
+            this.label23.Location = new System.Drawing.Point(543, 304);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(71, 18);
+            this.label23.Size = new System.Drawing.Size(75, 18);
             this.label23.TabIndex = 21;
-            this.label23.Text = "Serbian:";
+            this.label23.Text = "Bosnian:";
             // 
             // label24
             // 
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Gotham Pro", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label24.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label24.Location = new System.Drawing.Point(543, 209);
+            this.label24.Location = new System.Drawing.Point(543, 336);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(78, 18);
+            this.label24.Size = new System.Drawing.Size(107, 18);
             this.label24.TabIndex = 20;
-            this.label24.Text = "Croatian:";
+            this.label24.Text = "Macedonian:";
             // 
             // label25
             // 
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Gotham Pro", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label25.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label25.Location = new System.Drawing.Point(543, 179);
+            this.label25.Location = new System.Drawing.Point(543, 368);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(87, 18);
             this.label25.TabIndex = 19;
-            this.label25.Text = "Slovenian:";
+            this.label25.Text = "Bulgarian:";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(543, 397);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(125, 21);
+            this.label26.TabIndex = 27;
+            this.label26.Text = "Church Slavonic:";
             // 
             // Window
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 494);
+            this.Controls.Add(this.label26);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label20);
@@ -417,5 +428,6 @@
         private Label label23;
         private Label label24;
         private Label label25;
+        private Label label26;
     }
 }
