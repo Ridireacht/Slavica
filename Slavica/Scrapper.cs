@@ -12,7 +12,7 @@ namespace Slavica
             // data needed for code working
             const string api = "https://iapi.glosbe.com/iapi3/";
             List<string> languages = new() { "ru", "be", "uk", "rue", "orv", "pl", "csb", "szl",
-                                             "hsb", "dsb", "pox", "cs", "sk", "sl", "hr",
+                                             "hsb", "dsb", "pox", "cs", "sk", "czk", "sl", "hr",
                                              "sr", "sh", "bs", "mk", "bg", "cu" };
 
             return GetResponses(MakeURLs(keyword, api, languages));
