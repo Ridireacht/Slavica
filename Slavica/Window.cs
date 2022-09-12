@@ -59,6 +59,7 @@ namespace Slavica
             label24.Text = "Macedonian: " + words[19];
             label25.Text = "Bulgarian: " + words[20];
             label26.Text = "Church Slavonic: " + words[21];
+            label27.Text = "Montenegrin: " + words[22];
 
         }
 

@@ -56,6 +56,7 @@
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -360,11 +361,22 @@
             this.label26.TabIndex = 27;
             this.label26.Text = "Church Slavonic:";
             // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Gotham Pro", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label27.Location = new System.Drawing.Point(543, 428);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(111, 18);
+            this.label27.TabIndex = 28;
+            this.label27.Text = "Montenegrin:";
+            // 
             // Window
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 494);
+            this.Controls.Add(this.label27);
             this.Controls.Add(this.label26);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label19);
@@ -430,5 +442,6 @@
         private Label label24;
         private Label label25;
         private Label label26;
+        private Label label27;
     }
 }
