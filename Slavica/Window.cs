@@ -10,7 +10,7 @@ namespace Slavica
         }
 
 
-        // checks if the text entry is correct
+        // checks if the text entry is correct to submit
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             // turns off the 'proceed' button if the entry is incorrect
@@ -19,16 +19,17 @@ namespace Slavica
 
             else if (Regex.IsMatch(textBox1.Text, "^[a-zA-Z0-9]*$"))
                 button1.Enabled = true;
+
             else
                 button1.Enabled = false;
         }
 
 
-        // starts a translation process
+        // proceeds on translation and showing its results
         private void button1_Click(object sender, EventArgs e)
         {
             List<string> contents = Scrapper.GetContents(textBox1.Text);
-            var words = Parser.ParseInfo(contents);
+            List<string> words = Parser.ParseInfo(contents);
 
             
             // East Slavic
@@ -59,5 +60,6 @@ namespace Slavica
             label25.Text = "Church Slavonic: " + words[20];
 
         }
+
     }
 }
