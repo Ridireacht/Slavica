@@ -353,9 +353,10 @@
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(543, 397);
+            this.label26.Font = new System.Drawing.Font("Gotham Pro", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label26.Location = new System.Drawing.Point(543, 399);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(125, 21);
+            this.label26.Size = new System.Drawing.Size(139, 18);
             this.label26.TabIndex = 27;
             this.label26.Text = "Church Slavonic:";
             // 
