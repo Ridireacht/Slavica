@@ -48,16 +48,17 @@ namespace Slavica
             label15.Text = "Polabian: " + words[10];
             label16.Text = "Czech: " + words[11];
             label17.Text = "Slovak: " + words[12];
+            label18.Text = "Knaanic: " + words[13];
 
             // South Slavic
-            label18.Text = "Slovenian: " + words[13];
-            label19.Text = "Croatian: " + words[14];
-            label20.Text = "Serbian: " + words[15];
-            label21.Text = "Serbocroatian: " + words[16];
-            label22.Text = "Bosnian: " + words[17];
-            label23.Text = "Macedonian: " + words[18];
-            label24.Text = "Bulgarian: " + words[19];
-            label25.Text = "Church Slavonic: " + words[20];
+            label19.Text = "Slovenian: " + words[14];
+            label20.Text = "Croatian: " + words[15];
+            label21.Text = "Serbian: " + words[16];
+            label22.Text = "Serbocroatian: " + words[17];
+            label23.Text = "Bosnian: " + words[18];
+            label24.Text = "Macedonian: " + words[19];
+            label25.Text = "Bulgarian: " + words[20];
+            label26.Text = "Church Slavonic: " + words[21];
 
         }
 
