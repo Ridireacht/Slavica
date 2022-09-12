@@ -63,7 +63,7 @@
             // 
             this.button1.Enabled = false;
             this.button1.Font = new System.Drawing.Font("Dubai", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(543, 51);
+            this.button1.Location = new System.Drawing.Point(651, 60);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(87, 38);
             this.button1.TabIndex = 0;
@@ -75,7 +75,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Dubai", 12.096F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(274, 14);
+            this.label1.Location = new System.Drawing.Point(382, 23);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(217, 36);
             this.label1.TabIndex = 1;
@@ -84,7 +84,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Gotham Pro", 9.791999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(154, 58);
+            this.textBox1.Location = new System.Drawing.Point(262, 67);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(383, 26);
             this.textBox1.TabIndex = 2;
@@ -104,7 +104,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Bahnschrift", 16.128F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(558, 131);
+            this.label3.Location = new System.Drawing.Point(719, 131);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(154, 34);
             this.label3.TabIndex = 4;
@@ -114,7 +114,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Bahnschrift", 16.128F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(298, 131);
+            this.label4.Location = new System.Drawing.Point(382, 131);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(171, 34);
             this.label4.TabIndex = 5;
@@ -180,7 +180,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Gotham Pro", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label10.Location = new System.Drawing.Point(277, 179);
+            this.label10.Location = new System.Drawing.Point(361, 179);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(59, 18);
             this.label10.TabIndex = 15;
@@ -191,7 +191,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Gotham Pro", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label11.Location = new System.Drawing.Point(277, 209);
+            this.label11.Location = new System.Drawing.Point(361, 209);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(95, 18);
             this.label11.TabIndex = 14;
@@ -202,7 +202,7 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Gotham Pro", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label12.Location = new System.Drawing.Point(277, 241);
+            this.label12.Location = new System.Drawing.Point(361, 241);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(70, 18);
             this.label12.TabIndex = 13;
@@ -213,7 +213,7 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Gotham Pro", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label13.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label13.Location = new System.Drawing.Point(277, 273);
+            this.label13.Location = new System.Drawing.Point(361, 273);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(126, 18);
             this.label13.TabIndex = 12;
@@ -224,7 +224,7 @@
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Gotham Pro", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label14.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label14.Location = new System.Drawing.Point(277, 304);
+            this.label14.Location = new System.Drawing.Point(361, 304);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(126, 18);
             this.label14.TabIndex = 11;
@@ -235,7 +235,7 @@
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Gotham Pro", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label15.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label15.Location = new System.Drawing.Point(277, 336);
+            this.label15.Location = new System.Drawing.Point(361, 336);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(80, 18);
             this.label15.TabIndex = 18;
@@ -246,7 +246,7 @@
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Gotham Pro", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label16.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label16.Location = new System.Drawing.Point(277, 368);
+            this.label16.Location = new System.Drawing.Point(361, 368);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(61, 18);
             this.label16.TabIndex = 17;
@@ -257,7 +257,7 @@
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Gotham Pro", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label17.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label17.Location = new System.Drawing.Point(277, 399);
+            this.label17.Location = new System.Drawing.Point(361, 399);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(63, 18);
             this.label17.TabIndex = 16;
@@ -268,7 +268,7 @@
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Gotham Pro", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label18.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label18.Location = new System.Drawing.Point(277, 428);
+            this.label18.Location = new System.Drawing.Point(361, 428);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(75, 18);
             this.label18.TabIndex = 26;
@@ -279,7 +279,7 @@
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Gotham Pro", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label19.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label19.Location = new System.Drawing.Point(543, 179);
+            this.label19.Location = new System.Drawing.Point(704, 179);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(87, 18);
             this.label19.TabIndex = 25;
@@ -290,7 +290,7 @@
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Gotham Pro", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label20.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label20.Location = new System.Drawing.Point(543, 209);
+            this.label20.Location = new System.Drawing.Point(704, 209);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(78, 18);
             this.label20.TabIndex = 24;
@@ -301,7 +301,7 @@
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Gotham Pro", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label21.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label21.Location = new System.Drawing.Point(543, 241);
+            this.label21.Location = new System.Drawing.Point(704, 241);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(71, 18);
             this.label21.TabIndex = 23;
@@ -312,7 +312,7 @@
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Gotham Pro", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label22.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label22.Location = new System.Drawing.Point(543, 273);
+            this.label22.Location = new System.Drawing.Point(704, 273);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(121, 18);
             this.label22.TabIndex = 22;
@@ -323,7 +323,7 @@
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Gotham Pro", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label23.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label23.Location = new System.Drawing.Point(543, 304);
+            this.label23.Location = new System.Drawing.Point(704, 304);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(75, 18);
             this.label23.TabIndex = 21;
@@ -334,7 +334,7 @@
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Gotham Pro", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label24.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label24.Location = new System.Drawing.Point(543, 336);
+            this.label24.Location = new System.Drawing.Point(704, 336);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(107, 18);
             this.label24.TabIndex = 20;
@@ -345,7 +345,7 @@
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Gotham Pro", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label25.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label25.Location = new System.Drawing.Point(543, 368);
+            this.label25.Location = new System.Drawing.Point(704, 368);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(87, 18);
             this.label25.TabIndex = 19;
@@ -355,7 +355,7 @@
             // 
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Gotham Pro", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label26.Location = new System.Drawing.Point(543, 399);
+            this.label26.Location = new System.Drawing.Point(704, 399);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(139, 18);
             this.label26.TabIndex = 27;
@@ -365,7 +365,7 @@
             // 
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Gotham Pro", 9.216F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label27.Location = new System.Drawing.Point(543, 428);
+            this.label27.Location = new System.Drawing.Point(704, 428);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(111, 18);
             this.label27.TabIndex = 28;
@@ -375,7 +375,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 494);
+            this.ClientSize = new System.Drawing.Size(1029, 467);
             this.Controls.Add(this.label27);
             this.Controls.Add(this.label26);
             this.Controls.Add(this.label18);
